@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "giphy-api": "^2.0.2"
+  }
+}

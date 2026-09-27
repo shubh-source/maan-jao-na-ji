@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry Meri Jaan! ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Local Background Music -->
+    <audio id="bg-music" loop>
+        <source src="song.webm" type="audio/webm">
+    </audio>
+
+        <!-- Page 1: Sorry Theme -->
+    <div id="page1" class="page active">
+        <div class="container">
+            <h3 style="color: #ff4d4d; font-family: 'Comic Sans MS', cursive, sans-serif; margin-bottom: 15px;">To Meri Jaan, from your Shinchan ❤️</h3>
+            <img src="s1.gif" alt="Shinchan Sorry">
+            <h1>Hehe Meri Jaan! Gusse mein bhi aap bohot sundar lagti ho! 😍</h1>
+            <p>Par ab maaf kar do na please is masoom se bache ko... 🥺👉👈</p>
+            <button class="next-btn" onclick="nextPage('page1', 'page2')">Aage dekho 💕</button>
+        </div>
+    </div>
+
+    <!-- Page 2: Sad -->
+    <div id="page2" class="page">
+        <div class="container">
+            <img src="shinchan7.gif" alt="Shinchan Sad">
+            <h1>Dekho aapka Shinchan kitna sad aur nervous hai... 😭</h1>
+            <p>Aapse baat kiye bina mera bilkul dil nahi lag raha... 🥺❤️</p>
+            <button class="next-btn" onclick="nextPage('page2', 'page3')">Next 👉👈</button>
+        </div>
+    </div>
+
+    <!-- Page 3: Promise -->
+    <div id="page3" class="page">
+        <div class="container">
+            <img src="shinchan1.gif" alt="Shinchan Promise">
+            <h1>Main pinky promise karta hu! 🤞</h1>
+            <p>Aage se main aapko kabhi pareshan nahi karunga aur hamesha aapki har baat manunga... Pakka wala promise! 🥺</p>
+            <button class="next-btn" onclick="nextPage('page3', 'page4')">Aur suno na... 🥺</button>
+        </div>
+    </div>
+
+    <!-- Page 4: Emotional -->
+    <div id="page4" class="page">
+        <div class="container">
+            <img src="shinchan5.gif" alt="Shinchan Crying">
+            <h1>Aapko pata hai na main aapse kitna pyaar karta hu? 💖</h1>
+            <p>Aapke gusse se meri toh duniya hi ruk gayi hai. Please ek choti si smile de do na! 🥺</p>
+            <button class="next-btn" onclick="nextPage('page4', 'page5')">Ek aur sach baat... 🫣</button>
+        </div>
+    </div>
+
+    <!-- Page 5: Punishment -->
+    <div id="page5" class="page">
+        <div class="container">
+            <img src="shinchan6.gif" alt="Shinchan Sorry">
+            <h1>Dekho main saza bhugatne ko bhi taiyar hu! 🧍‍♂️</h1>
+            <p>Jo saza doge manzoor hai, bas pyar se ek baar baat kar lo please! 😭❤️</p>
+            <button class="next-btn" onclick="nextPage('page5', 'page6')">Final decision... 🫣</button>
+        </div>
+    </div>
+
+    <!-- Page 6: The Running Button -->
+    <div id="page6" class="page">
+        <div class="container">
+            <img src="shinchan4.gif" alt="Shinchan Wait">
+            <h1>Toh batao... Ab toh gussa chhod diya na meri Jaan ne? ❤️</h1>
+            <div class="btn-container">
+                <button id="yesBtn">Maan gayi! 😘</button>
+                <button id="noBtn">Nahi! 😤</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 7: Happy Ending -->
+    <div id="page7" class="page">
+        <div class="container">
+            <img src="shinchan8.gif" alt="Shinchan Happy">
+            <h1>Yayyy! Meri Jaan is the best! I love you sooooo much! ❤️🥳✨</h1>
+            <p>Ab jaldi se aakar ek pyari si jhappi (tight hug) de do! 🤗</p>
+            <br>
+            <button class="next-btn" onclick="nextPage('page7', 'page8')" style="background-color:#25D366; font-size:1.2rem; margin-top:10px;">Date pe chalein? 🍕</button>
+        </div>
+    </div>
+
+    <!-- Page 8: Final Apology -->
+    <div id="page8" class="page">
+        <div class="container">
+            <img src="shinchan3.gif" alt="Shinchan Peace">
+            <h1>Ek Aakhiri Baar... 🥺</h1>
+            <p>I am really, really sorry meri Jaan. Aapke is stupid Shinchan ko maaf kar dene ke liye thank you! Hamesha aise hi muskurati rehna... I Love You! ❤️</p>
+            <h3 style="color: #ff4d4d; font-family: 'Comic Sans MS', cursive, sans-serif; margin-top: 20px;">- Only Yours, Shinchan</h3>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
